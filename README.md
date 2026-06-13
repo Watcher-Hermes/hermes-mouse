@@ -16,11 +16,8 @@ iex "& { $(irm https://raw.githubusercontent.com/Watcher-Hermes/hermes-mouse/mai
 
 That's it. Now type `hermes-mouse` in any terminal.
 
-Veya direkt Python ile:
-
-```python
-python hermesmouse.py pos
-```
+**Hermes Agent kullanıcıları için:** Kurulum otomatik olarak skill'i Hermes'e kaydeder.
+Hermes'e "Not Defteri'nde Dosya'ya tıkla" dediğinizde ne yapacağını bilir.
 
 ---
 
