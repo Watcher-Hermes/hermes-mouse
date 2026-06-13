@@ -6,7 +6,7 @@
     Usage: iex "& { $(irm https://raw.githubusercontent.com/Watcher-Hermes/hermes-mouse/main/install.ps1) }"
 #>
 
-$Repo  = "https://raw.githubusercontent.com/Watcher-Hermes/hermes-mouse/main"
+$Repo  = "https://raw.githubusercontent.com/Watcher-Hermes/hermes-mouse/master"
 $Dest  = "$env:USERPROFILE\hermesmouse.py"
 $Bat   = "$env:USERPROFILE\hermesmouse.bat"
 $Bin   = "$env:USERPROFILE\.hermes-mouse-bin"
