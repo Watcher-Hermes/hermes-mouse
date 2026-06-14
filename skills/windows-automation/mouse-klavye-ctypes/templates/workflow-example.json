@@ -1,0 +1,11 @@
+{
+  "steps": [
+    {"do": "click", "window": "Not Defteri", "target": "Dosya"},
+    {"do": "wait", "seconds": 0.5},
+    {"do": "click", "window": "Not Defteri", "target": "Kaydet", "timeout": 2},
+    {"do": "type", "text": "ornek_dosya.txt"},
+    {"do": "key", "keys": "enter"},
+    {"do": "wait", "seconds": 1}
+  ],
+  "pause": 0.3
+}

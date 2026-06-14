@@ -1,0 +1,21 @@
+# Workflow ornegi — metin formati
+# # ile baslayan satirlar yorumdur
+
+# 1. Bekle (saniye)
+wait 0.5
+
+# 2. ESC gonder (dialog kapatma)
+key esc
+
+# 3. Element varsa tikla, yoksa atla (if_exists)
+if_exists "Uygulama" | "Kapat" -> click
+
+# 4. Element bul + sol tikla
+# Bicim: click "Pencere" | "Element" [| by] [| stop|skip]
+click "Not Defteri" | "Dosya" | skip
+
+# 5. Tus kombinasyonu
+key ctrl+s
+
+# 6. Metin yaz
+type "Not Defteri" | "merhaba dunya"
